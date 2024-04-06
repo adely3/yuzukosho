@@ -1,5 +1,9 @@
 body{
-    background-color: rgb(159, 170, 129);
+    background-color: hsl(46, 18%, 67%);
+}
+
+h1{
+    color: aquamarine;
 }
 
 li{
