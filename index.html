@@ -16,14 +16,15 @@
 
     <section class="f33">
         <ul>
-        <li><a href="#git">gitへ</a></li>
-        <li><a href="#VScode">VScodeへ</a></li>
-        <li><a href="#WordPress">WordPressへ</a></li>
-        <li><a href="#browser">ブラウザへ</a></li>
-        <li><a href="#mikan">みかんリストへ</a></li>
+            <li><a href="#git">gitへ</a></li>
+            <li><a href="#VScode">VScodeへ</a></li>
+            <li><a href="#WordPress">WordPressへ</a></li>
+            <li><a href="#browser">ブラウザ等へ</a></li>
+            <li><a href="#mikan">みかんリストへ</a></li>
+            <li><a href="#WPconcept">WP概念へ</a></li>
 
         </ul>
-        
+
 
     </section>
 
@@ -97,6 +98,7 @@
             <li>cmd+opt+U ソース表示</li>
             <li>cmd+opt+I 検証ツール</li>
             <li>cmd+「,」 設定</li>
+            <li>「z」+「h」←「j」↓「k」↑「l」→</li>
         </ul>
     </section>
 
@@ -112,6 +114,52 @@
             <li>はるか</li>
             <li>おれんじ</li>
         </ul>
+    </section>
+
+    <section class="f33">
+        <h3 id="WPconcept">WP基礎概念</h3>
+        <div>
+            
+            <ul>
+                <li>基礎概念1 テーマの変更・カスタマイズ<br>
+                    →オリジナルのテーマや配布されているテーマを適用できる</li>
+                <li>基礎概念2 データベースとテンプレートタグ<br>
+                    →データベースからデータをPHPで抽出・出力している</li>
+                <li>基礎概念3 CMS機能:投稿と固定ページ<br>
+                    →投稿：新着情報やブログなど 固定ページ それ以外</li>
+                <li>基礎概念4 テンプレートファイル<br>
+                    →外観→テーマエディターでPHPの編集画面が出る<a target="_blank"
+                        href="https://ja.wordpress.org/team/handbook/theme-development/basics/template-hierarchy/">テンプレート階層</a><br>
+                    読み込むテンプレートによって同じ内容でも異なった表示をすることができる<br>
+                    ↓主なテンプレートファイル<br>
+                    <ul>
+                        <li>front-page.php:トップページ</li>
+                        <li>page.php:固定ページ</li>
+                        <li>single.php:投稿ページ</li>
+                        <li>archive.php:記事一覧</li>
+
+                    </ul>
+                </li>
+                <li>基礎概念5 インクルードタグ（共通パーツ）<br>
+                    →共通部（ヘッター・フッター・サイドバー）などはインクルードしている</li>
+                <li>基礎概念6 プラグイン（拡張機能）<br>
+                    →最終更新・バージョンとの互換性・有効インストール数を要チェック
+                    →例:Contact Form 7(有名らしい)</li>
+                <li>WP頻出PHP3種類<br>
+                    <ul>
+                        <li>条件分岐 if elseif else switch case: break default:<a target="_blank"
+                                href="https://media.caracal.jp/wordpress/wordpress-conditional-branch-cheet-sheet/">条件分岐タグ</a>
+                        </li>
+                        <li>テンプレートタグ・パラメータ<a target="_blank" href="https://codex.wordpress.org/Main_Page">テンプレートタグ一覧</a>
+                        </li>
+                        <li>ループ if while</li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
     </section>
 
 </body>
