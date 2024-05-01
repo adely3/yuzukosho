@@ -91,7 +91,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.demo6 a{
+.move-top a{
     position: fixed;
     bottom: 10px;
     right: 10px;
